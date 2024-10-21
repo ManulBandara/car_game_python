@@ -13,7 +13,7 @@ screen = pygame.display.set_mode(screen_size)
 pygame.display.set_caption('Car Game')
 
 # Load and play background music
-pygame.mixer.music.load(r"D:\python-car-game\sounds\background_music.mp3")  # Use raw string for the path
+pygame.mixer.music.load(r"D:\car_game_python\sounds\background_music.mp3")  # Use raw string for the path
 pygame.mixer.music.play(-1)  # Loop the music indefinitely
 
 # colors
@@ -97,6 +97,7 @@ crash_rect = crash.get_rect()
 # game loop
 running = True
 while running:
+    
     
     clock.tick(fps)
     
